@@ -10,7 +10,7 @@ function ViewPost() {
         getPostById(id).then(setPost);
     }, [id]);
 
-    if (!post) return <p>Loading...</p>;
+    if (!post) return <p className="text-black">Loading...</p>;
 
     const formattedDate = new Date(post.timestamp).toLocaleString();
 
