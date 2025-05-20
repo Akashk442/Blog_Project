@@ -49,7 +49,7 @@ create .env file in backend folder
 PORT=5000
 MONGODB_URI= "your MongoDB URL"
 then
-Start the backend server - node server.js
+Start the backend server - npm run server
 also in frontend
 cd frontend
 npm install
