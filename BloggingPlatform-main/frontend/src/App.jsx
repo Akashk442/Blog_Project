@@ -8,7 +8,7 @@ import ViewPost from "./Pages/ViewPost";
 function App() {
   return (
     <Router>
-      <div className="border-4 border-black-500 bg-blue-50 p-6 rounded-xl shadow-lg">
+      <div className="border-4 border-black-500 bg-yellow-50 p-6 rounded-xl shadow-lg">
         <h1 className="text-3xl font-bold text-center mb-4 text-black">Blogging Platform</h1>
         <Routes>
           <Route path="/" element={<Home />} />
