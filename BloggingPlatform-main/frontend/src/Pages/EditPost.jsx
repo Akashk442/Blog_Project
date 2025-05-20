@@ -23,26 +23,26 @@ function EditPost() {
 
     return (
         <div>
-            <h2 className="text-2xl font-bold mb-4">Edit Post</h2>
+            <h2 className="text-2xl font-bold mb-4 text-black">Edit Post</h2>
             <form onSubmit={handleSubmit} className="space-y-4">
                 <input
                     name="title"
                     value={form.title}
                     onChange={handleChange}
-                    className="w-full border p-2"
+                    className="w-full border p-2 text-black"
                 />
                 <textarea
                     name="content"
                     value={form.content}
                     onChange={handleChange}
                     rows={6}
-                    className="w-full border p-2"
+                    className="w-full border p-2 text-black"
                 />
                 <input
                     name="author"
                     value={form.author}
                     onChange={handleChange}
-                    className="w-full border p-2"
+                    className="w-full border p-2 text-black"
                 />
                 <button className="bg-yellow-500 px-4 py-2 rounded">
                     Update
