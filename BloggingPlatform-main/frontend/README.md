@@ -41,7 +41,8 @@ npm install
 npm i nodemon
 
 package.json
-"script"="nodemon server.js"
+scripts:
+"server"="nodemon server.js"
 
 
 create .env file in backend folder 
