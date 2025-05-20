@@ -20,7 +20,7 @@ function Home() {
     }, []);
 
     return (
-        <div  className="border-4 border-blue-500 bg-blue-50 p-6 rounded-xl shadow-lg">
+        <div>
             <Link
                 to="/create"
                 className="inline-block bg-gray-300 text-black px-4 py-2 rounded mb-4 hover:bg-gray-400"
