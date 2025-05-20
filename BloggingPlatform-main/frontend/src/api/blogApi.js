@@ -7,6 +7,7 @@ export const getAllPosts = async () => {
     return res.json();
 };
 
+
 export const getPostById = async (id) => {
     const res = await axios.get(`http://localhost:5000/api/posts/${id}`);
     return res.data;
