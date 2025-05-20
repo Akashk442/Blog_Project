@@ -33,15 +33,20 @@ A full-stack blogging platform built with Node.js,Express, MongoDB, and React. U
 1. **Clone the repository**
 
 ```bash
-git clon https://github.com/Ankush82787/BloggingPlatform
-cd BloggingPlatform
+git clone https://github.com/your-username/Blog_Project.git
+cd Bloggingplatform-main  
 cd backend
 Install backend dependencies -
 npm install
+npm i nodemon
+
+package.json
+"script"="nodemon server.js"
+
 
 create .env file in backend folder 
 PORT=5000
-MONGODB_URI=mongodb+srv://blogging:blogging787@cluster0.u7xvyqr.mongodb.net/
+MONGODB_URI= "your MongoDB URL"
 then
 Start the backend server - node server.js
 also in frontend
