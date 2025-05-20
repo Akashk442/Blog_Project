@@ -33,7 +33,7 @@ A full-stack blogging platform built with Node.js,Express, MongoDB, and React. U
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/your-username/Blog_Project.git
+git clone https://github.com/Akashk442/Blog_Project.git
 cd Bloggingplatform-main  
 cd backend
 Install backend dependencies -
